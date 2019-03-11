@@ -1,0 +1,14 @@
+{
+    "name": "IT 202 Project 2",
+    "short_name": "Project 2",
+    "icons": [ {
+          "src": "./H.png",
+          "type": "image/png",
+          "sizes": "144x144"
+        }],
+    "start_url": "./index.html",
+    "scope": "./",
+    "display": "standalone",
+    "background_color": "#2196F3",
+    "theme_color": "#2196F3"
+  }
