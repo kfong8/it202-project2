@@ -204,6 +204,14 @@
 
       });
     </script>
+    <script>
+            // register the service worker for offline use
+            if('serviceWorker' in navigator) {
+              navigator.serviceWorker
+                       .register('./sw.js')
+                       .then(function() { console.log("Service Worker Registered"); });
+            }
+        </script>
 
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDa4dMSOASs_iLQnhrPoQ8EZgj2Im_pZ7o&callback=initMap">
